@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+/*register sesuai dengan fungsi SSO*/
+Auth::routes(['register' => !config('SsoConfig.main.ACTIVE')]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
