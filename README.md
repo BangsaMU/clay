@@ -1,5 +1,5 @@
 
-<p  align="center"><a  href="https://laravel.com"  target="_blank"><img  src="https://cms.meindo.com/homepage/images/small_img1.jpg"  width="400"  alt="Laravel Logo"></a></p>
+<p  align="center"><a  href="https://laravel.com"  target="_blank"><img  src="https://w7.pngwing.com/pngs/34/718/png-transparent-clay-sima-guang-drop-tank-clay-culture-chinese-style-drop.png"  width="400"  alt="Laravel Logo"></a></p>
 
   
 
