@@ -13,9 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+if (config('adminlte.DASHBOARD_ONLY')) {
+    Route::get('/', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm']);
+} else {
+    Route::get('/', function () {
+        return redirect('/login');
+    });
+}
 
 /*register sesuai dengan fungsi SSO*/
 Auth::routes(['register' => !config('SsoConfig.main.ACTIVE')]);
