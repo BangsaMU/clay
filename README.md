@@ -36,6 +36,8 @@ CLAY is a web application framework base on [Laravel](https://laravel.com/) with
 - [Datatable](https://yajrabox.com/docs/laravel-datatables/10.0).
 
   
+Addon
+- sso use coposer to install "composer require bangsamu/sso" php artisan vendor:publish publish config 
 
 CLAY is accessible, powerful, and provides tools required for large, robust applications base on [Laravel](https://laravel.com/).
 
